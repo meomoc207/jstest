@@ -1,0 +1,47 @@
+.font_monospace {
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.positioning {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em auto;
+}
+.heading {
+    color: #900;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: -1.5em;
+    ::before {
+        content: '* ';
+        color: #fb0;
+    }
+}
+
+.a {
+    :hover {
+        color: #f00;
+    }
+    :visited {
+        color: #551a8b;
+    }
+    :link {
+        color: #0066cc;
+    }
+}
+
+.button_style {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #0066cc;
+    margin: 0;
+    padding: 0;
+    ::hover {
+        color: #f00;
+    }
+}
